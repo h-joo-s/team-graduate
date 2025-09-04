@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F4CD"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="영화소개"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_margin="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:background="#C7E9F8"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="240dp"
+            android:layout_height="260dp"
+            android:src="@drawable/arieti"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="300dp"
+            android:padding="3dp"
+            android:text="마루 밑 아리에티\n스튜디오 지브리\n감독: 미야자키 하야오\등장인물:\n아리에티, 샤우, 하나, 쇼 등\n\n줄거리:  이 영화는 작은 사람 아리에티가 인간에게 발견될 위험 속에서 가족을 지키기 위한 모험을 그린 이야기입니다."/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#E1D4F8"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="240dp"
+            android:layout_height="260dp"
+            android:padding="10dp"
+            android:src="@drawable/kiki" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="300dp"
+            android:padding="3dp"
+            android:text="마녀배달부 키키\n스튜디오 지브리\n감독: 미야자키 하야오\등장인물: 키키, 지지, 오소시, 톰보 등\n\n줄거리:  이 영화는 13살의 마녀 키키는 독립을 위해 새로운 도시로 떠나, 배달 일을 하며 성장하고 자신만의 길을 찾아가는 이야기입니다."/>/>
+    </LinearLayout>
+</LinearLayout>
