@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button plus, cancel,mul;
     EditText num1, num2;
     TextView result;
-    Integer res;
+    Integer res;  //수정하기
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
